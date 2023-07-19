@@ -52,8 +52,8 @@ img {
 
 .gallery__card {
   position: relative;
-  width: 230px !important;
-  height: 230px !important;
+  width: 260px;
+  height: 260px;
   border-radius: 3rem;
   margin-left: auto;
   margin-right: auto;
@@ -109,8 +109,8 @@ img {
 
 .gallery__thumbnail {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 1.5rem;
   overflow: hidden;
   cursor: pointer;
@@ -216,8 +216,8 @@ img {
 /* For medium devices */
 @media screen and (min-width: 1024px) {
   .gallery__card {
-    width: 220px;
-    height: 290px;
+    width: 260px;
+    height: 260px;
   }
   .gallery__thumbnail {
     width: 65px;
