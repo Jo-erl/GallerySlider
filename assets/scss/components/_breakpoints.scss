@@ -1,4 +1,4 @@
-/*=============== BREAKPOINTS ===============*/
+/*=======================================================*/
 /* For small devices */
 @media screen and (max-width: 320px){
     .swiper-button-next,
@@ -6,7 +6,7 @@
         display: none;
     }
 }
-
+/*=======================================================*/
 /* For medium devices */
 @media screen and (min-width: 1024px){
     .gallery{
@@ -19,7 +19,7 @@
             height: 65px;
         }
     }
-
+/*=======================================================*/
     .gallery-cards,
     .gallery-thumbs{
         width: 280px;

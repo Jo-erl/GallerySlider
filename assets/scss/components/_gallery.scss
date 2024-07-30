@@ -1,10 +1,10 @@
-/*=============== GALLERY ===============*/
+/*=======================================================*/
 .gallery{
     height: 100vh;
     display: grid;
     align-content: center;
     justify-content: center;
-
+/*=======================================================*/
     &__card{
         position: relative;
         width: 208px;
@@ -71,39 +71,39 @@
         }
     }
 }
-
+/*=======================================================*/
 /* Swiper class */
 .gallery-cards,
 .gallery-thumbs{
     width: 260px;
 }
-
+/*=======================================================*/
 .gallery-cards:hover .gallery__img{
     transform: scale(1.1);
 }
-
+/*=======================================================*/
 .gallery .swiper-wrapper{
     padding: 2.5rem 0;
 }
-
+/*=======================================================*/
 .gallery-thumbs{
     height: 132px;
 }
-
+/*=======================================================*/
 /* Active thumbnail */
 .swiper-slide-active .gallery__thumbnail{
     transform: translateY(-1.25rem) scale(1.2);
 }
-
+/*=======================================================*/
 /* Rotate thumbnail */
 .swiper-slide-next .gallery__thumbnail{
     transform: rotate(15deg);
 }
-
+/*=======================================================*/
 .swiper-slide-prev .gallery__thumbnail{
     transform: rotate(-15deg);
 }
-
+/*=======================================================*/
 /* Sliding numbers */
 .swiper-pagination-fraction{
     font-size: var(--small-font-size);
@@ -112,30 +112,30 @@
     color: var(--first-color);
     bottom: 0;
 }
-
+/*=======================================================*/
 /* Arrow buttons */
 .swiper-button-next::after,
 .swiper-button-prev::after{
     content: '';
 }
-
+/*=======================================================*/
 .swiper-button-next,
 .swiper-button-prev{
     font-size: 1.5rem;
     color: var(--text-color-black);
     top: 5.5rem;
 }
-
+/*=======================================================*/
 .swiper-button-next{
     right: -1.5rem;
     transform: rotate(15deg);
 }
-
+/*=======================================================*/
 .swiper-button-prev{
     left: -1.5rem;
     transform: rotate(-15deg);
 }
-
+/*=======================================================*/
 /* Other swiper settings */
 .gallery-cards::after{
     content: '';
@@ -146,7 +146,7 @@
     left: 0;
     z-index: 10;
 }
-
+/*=======================================================*/
 .swiper-horizontal.swiper-css-mode>.swiper-wrapper{
     scroll-snap-type: initial;
 }
